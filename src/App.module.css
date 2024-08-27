@@ -1,0 +1,32 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100px;
+  background-color: #e9eef0;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.errorInfo {
+  padding: 5px;
+  font-size: 1.5rem;
+}

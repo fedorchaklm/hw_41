@@ -1,0 +1,10 @@
+.albumList {
+  display: flex;
+  flex-direction: column;
+}
+
+.albumList__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
